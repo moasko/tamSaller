@@ -10,6 +10,39 @@ import NewProductModal from '@/components/shop/NewProductModal';
 interface ShopProps { }
 
 const Shop: FC<ShopProps> = ({ }) => {
+        const products = [
+                {
+                        id: "1",
+                        name: "Produit 1",
+                        price: 999,
+                        image: "/products/1.jpg",
+                },
+                {
+                        id: "2",
+                        name: "Produit 2",
+                        price: 1999,
+                        image: "/products/2.jpg",
+                },
+                {
+                        id: "3",
+                        name: "Produit 3",
+                        price: 1499,
+                        image: "/products/3.jpg",
+                },
+                {
+                        id: "4",
+                        name: "Produit 4",
+                        price: 2499,
+                        image: "/products/4.jpg",
+                },
+                {
+                        id: "5",
+                        name: "Produit 5",
+                        price: 2999,
+                        image: "/products/5.jpg",
+                }
+        ];
+
         return (
                 <div className='container mx-auto'>
                         {/* content container */}
@@ -30,18 +63,12 @@ const Shop: FC<ShopProps> = ({ }) => {
                                                 </div>
 
                                                 <section className='grid grid-cols-4 gap-3'>
-                                                        <ShopCard />
-                                                        <ShopCard />
-                                                        <ShopCard />
-                                                        <ShopCard />
-                                                        <ShopCard />
-                                                        <ShopCard />
-                                                        <ShopCard />
-                                                        <ShopCard />
-                                                        <ShopCard />
-                                                        <ShopCard />
-                                                        <ShopCard />
-                                                        <ShopCard />
+                                                        {
+                                                                products.map(product => {
+                                                                        return <ShopCard key={product.id} productProps={product} />
+                                                                })
+                                                        }
+
                                                 </section>
 
                                         </div>
