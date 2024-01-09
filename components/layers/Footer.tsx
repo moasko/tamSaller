@@ -18,7 +18,7 @@ const Footer: FC<FooterProps> = ({ }) => {
                     <div className="mx-6 py-10 text-center md:text-left">
                         <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                             <div className="space-y-4">
-                                <Image src="/feetura-logo.png" alt="feetura logo" width={122} height={44} />
+                                <Image src="/sallerlogo.png" alt="feetura logo" width={122} height={44} />
                                 {/* <p>
                                     Here you can use rows and columns to organize your footer
                                     content. Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -79,7 +79,7 @@ const Footer: FC<FooterProps> = ({ }) => {
                                 <p className="mb-4 flex items-center justify-center md:justify-start">
                                     <IoMdMail className='mr-3' size={20} />
 
-                                    info@feetura.com
+                                    info@tammarket.com
                                 </p>
                                 <p className="mb-4 flex items-center justify-center md:justify-start">
                                     <IoCallSharp className='mr-3' size={20} />
@@ -100,7 +100,7 @@ const Footer: FC<FooterProps> = ({ }) => {
                 <span>© 2023 Copyright :</span>
                 <Link
                     className="font-semibold text-neutral-600 dark:text-neutral-400"
-                    href="https://feetura.com/"> Feetura Inc</Link>
+                    href="#"> TamMarket</Link>
             </div>
         </footer>
 

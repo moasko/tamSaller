@@ -12,7 +12,7 @@ const Header: FC<HeaderProps> = ({}) => {
               <div className='py-4 w-full flex  justify-between items-center'>
                 <div className='flex justify-center flex-row items-center space-x-5'>
                   <div>
-                    <Image src="/feetura-logo.png" alt="feetura logo" width={122} height={44} />
+                    <Image src="/sallerlogo.png" alt="feetura logo" width={122} height={44} />
                   </div>
                   <div className='bg-slate-200 flex justify-center items-center rounded-sm h-10 px-2'>
                     <BsSearch color='gray' size={20} />

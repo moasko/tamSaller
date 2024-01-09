@@ -13,33 +13,38 @@ const Shop: FC<ShopProps> = ({ }) => {
         const products = [
                 {
                         id: "1",
-                        name: "Produit 1",
+                        name: "PC Microsoft Surface Laptop 5 12th Gen intel core i7-1265u",
                         price: 999,
                         image: "/products/1.jpg",
+                        slug:"produit1"
                 },
                 {
                         id: "2",
                         name: "Produit 2",
                         price: 1999,
                         image: "/products/2.jpg",
+                        slug:"produit2"
                 },
                 {
                         id: "3",
                         name: "Produit 3",
                         price: 1499,
                         image: "/products/3.jpg",
+                        slug:"produit3"
                 },
                 {
                         id: "4",
                         name: "Produit 4",
                         price: 2499,
                         image: "/products/4.jpg",
+                        slug:"produit4"
                 },
                 {
                         id: "5",
                         name: "Produit 5",
                         price: 2999,
                         image: "/products/5.jpg",
+                        slug:"produit5"
                 }
         ];
 
